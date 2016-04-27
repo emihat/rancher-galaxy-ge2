@@ -12,7 +12,7 @@ migap-galaxy:
    - /usr/bin/docker:/bin/docker
    - /var/lib/gridengine:/var/lib/gridengine
    - /mnt/data:/data
-   - /tmp/files:/tmp/files
+   - /tmp/files:/mnt/files
    - /mnt/galaxy_test:/mnt/galaxy_test
   extra_hosts:
    - "og05-medium03:192.168.1.53"
